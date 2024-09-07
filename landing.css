@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#top-nav input {
+    padding: .5rem 1rem;
+    width: 20rem;
+}
+#bottom-nav{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    padding: .5rem 0;  
+}
+#ul-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(230, 176, 176);
+}
+#bannerImage {
+    background-image: url("https://blushbar.vtexassets.com/assets/vtex.file-manager-graphql/images/b8a4c975-303b-4cb9-af16-42758d6b8f21___3b940bdad126de3430fc362075b63c35.jpg");
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.list-products{
+    height: 14rem;
+    width: 10rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(10, 10, 10, 0.4);
+    padding: .5rem;
+}
+#productos-destacados{
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    top: 530px;
+    font-size: small;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.productos-normales{
+    height: 20rem;
+    width: 20rem;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+#image1{
+    background-image: url("https://blushbar.vtexassets.com/arquivos/ids/191238-300-auto?v=637801282991500000&width=300&height=auto&aspect=true");
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+}
+#image2{
+    background-image: url("https://blushbar.vtexassets.com/arquivos/ids/194680-300-auto?v=637964383057000000&width=300&height=auto&aspect=true");
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+}
+#image3{
+    background-image: url("https://blushbar.vtexassets.com/arquivos/ids/204059-300-auto?v=638485428830270000&width=300&height=auto&aspect=true");
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+}
+#destacado-1{
+    background-image: url("https://blushbar.vtexassets.com/arquivos/ids/205420-300-auto?v=638548397044830000&width=300&height=auto&aspect=true");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
+#destacado-2{
+    background-image: url("https://blushbar.vtexassets.com/arquivos/ids/204720-300-auto?v=638513183868030000&width=300&height=auto&aspect=true");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
+#destacado-3{
+    background-image: url("https://blushbar.vtexassets.com/arquivos/ids/205415-300-auto?v=638546117608270000&width=300&height=auto&aspect=true");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
+#destacado-4{
+    background-image: url("https://blushbar.vtexassets.com/arquivos/ids/205417-300-auto?v=638548395534470000&width=300&height=auto&aspect=true");
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
